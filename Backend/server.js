@@ -1,5 +1,5 @@
 import express from 'express';
-import mongoose from 'mongoose';
+//import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
@@ -9,12 +9,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(process.env.MONGO_URI, {
+/*mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
 mongoose.connection.once('open', () => console.log('✅ MongoDB connected'));
-
+*/
 import itemRoutes from './routes/items.js';
 import matchRoutes from './routes/match.js';
 import reputationRoutes from './routes/reputation.js';
