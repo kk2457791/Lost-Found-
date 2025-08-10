@@ -1,5 +1,4 @@
 import express from 'express';
-import Item from '../models/Item.js';
 import natural from 'natural';
 import fetch from 'node-fetch';
 const router = express.Router();
