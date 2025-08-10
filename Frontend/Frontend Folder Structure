@@ -1,4 +1,6 @@
 frontend/
+  public/
+    index.html
   src/
     components/
       LostReport.js
@@ -10,7 +12,5 @@ frontend/
     services/
       api.js
     App.js
-    public/
-      index.html
   package.json
   .env.example
