@@ -1,0 +1,13 @@
+backend/
+  models/
+    Item.js
+    User.js
+  routes/
+    items.js
+    match.js
+    users.js
+    reputation.js
+    hotspots.js
+  server.js
+  package.json
+  .env.example
