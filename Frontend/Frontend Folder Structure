@@ -1,0 +1,15 @@
+frontend/
+  src/
+    components/
+      LostReport.js
+      FoundReport.js
+      MapView.js
+      ARItemSpotting.js
+      VoiceReport.js
+      ReputationDashboard.js
+    services/
+      api.js
+    App.js
+    index.js
+  package.json
+  .env.example
