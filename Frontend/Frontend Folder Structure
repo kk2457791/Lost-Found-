@@ -10,6 +10,6 @@ frontend/
     services/
       api.js
     App.js
-    index.js
+    index.html
   package.json
   .env.example
