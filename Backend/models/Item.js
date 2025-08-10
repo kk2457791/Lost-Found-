@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+/*import mongoose from 'mongoose';
 
 const ItemSchema = new mongoose.Schema({
   type: { type: String, enum: ['lost', 'found'], required: true },
@@ -10,4 +10,4 @@ const ItemSchema = new mongoose.Schema({
 });
 
 export default mongoose.model('Item', ItemSchema);
-  
+  */
