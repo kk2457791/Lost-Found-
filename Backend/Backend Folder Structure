@@ -1,6 +1,5 @@
 backend/
   models/
-    Item.js
     User.js
   routes/
     items.js
